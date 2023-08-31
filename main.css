@@ -8,3 +8,23 @@
     padding-bottom: 15px !important;
     padding-top: 15px !important;
 }
+.bg-barra{
+    background-color: #ECA66E; 
+}
+
+
+.w-90-fix {
+    width: 90%;
+  }
+  
+  .w-75-fix {
+    width: 75%;
+  }
+
+  .w-95-fix {
+    width: 95%;
+  }
+
+  .w-80-fix {
+    width: 80%;
+  }
