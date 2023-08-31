@@ -5,47 +5,82 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
 <BaseLayout title = "Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">All my projects</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
+    title="Clece"
+    img="clece-preview.png"
+    desc="Maintenance and web development of one of the most important services companies in Spain and Portugal."
+    url="https://www.clece.es/en/"
+    badge="PHP"
+    badge2="HTML"
+    badge3="JavaScript"
+    badge4="CSS"
+    badge5="Timber"
+    badge6="Twig"
   />
-  <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Proyecto Hombre"
+    img="preview-ph.png"
+    desc="Maintenance and web development of the most important government rehabilitation foundation in Spain. Integration of donation system with nukua CRM via API"
+    url="https://proyectohombre.es"
+    badge="PHP"
+    badge2="REACT"
+    badge3="JavaScript"
+    badge4="CSS"
+    badge5="Timber"
+    badge6="Twig"
   />
 
-  <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
-  </div>
+  <HorizontalCard
+  title="UNIVERSAE"
+  img="preview-universae.png"
+  desc="Responsible for the web department in charge of a work team of 6 people, creator of the website and a personalized payment gateway, integrated with ZOHO CRM"
+  url="https://universae.com"
+  badge="PHP"
+  badge2="Plesk"
+  badge3="JavaScript"
+  badge4="CSS"
+  badge5="Wordpress"
+  badge6="Elementor"
+/>
 
-  <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
+<HorizontalCard
+title="San Miguel"
+img="preview-sanmiguel.png"
+desc="Development and maintenance of the website for San Miguel, one of the most important brewing companies in Europe."
+url="https://www.sanmiguel.com"
+badge="PHP"
+badge2="React"
+badge3="JavaScript"
+badge4="CSS"
+badge5="Timber"
+badge6="Twig"
+/>
+
+<HorizontalCard
+  title="Wakeuprights OXFAM"
+  img="/preview-oxfam.png"
+  desc="Web creation by crafting the layout structure and elements using Tailwind and Twig, utilizing Gutenberg's own blocks for the actual layout design. This web also has a very complex form built with react."
+  url="https://tejiendoderechos.oxfamintermon.org"
+  badge="PHP"
+  badge2="React"
+  badge3="JavaScript"
+  badge4="Tailwind CSS"
+  badge5="Timber"
+  badge6="Twig"
+/>
+
+<HorizontalCard
+  title="El patio de Mahou"
+  img="/preview-elpatio.png"
+  desc="Webpage mainly build by react and conected via API with the CMS cockpit"
+  url="https://www.mahou.es/el-patio/"
+  badge="React"
+  badge2="Vue"
+  badge3="Astro"
+  badge4="Tailwind CSS"
+  badge5="Cockpit"
+/>
 </BaseLayout>
