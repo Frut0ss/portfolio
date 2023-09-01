@@ -5,7 +5,7 @@ import tailwind from "@astrojs/tailwind";
 import image from "@astrojs/image";
 
 export default defineConfig({
-  site: 'https://dev.elwebhouse.es', // Configura el sitio con el protocolo HTTPS
+  site: 'https://dev.elwebhouse.es/', // Configura el sitio con el protocolo HTTPS
   integrations: [mdx(), sitemap(), tailwind(), image(
     {
       serviceEntryPoint: '@astrojs/image/sharp',
