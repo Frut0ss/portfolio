@@ -1,5 +1,5 @@
 ---
-const { title, img, desc, url, badge, badge2, badge3, badge4, badge5, badge6, tags, target = "_blank" } = Astro.props;
+const { title, img, titdesc, desc, url, badge, badge2, badge3, badge4, badge5, badge6, tags, target = "_blank" } = Astro.props;
 import { Image } from "@astrojs/image/components";
 ---
 
@@ -30,6 +30,7 @@ import { Image } from "@astrojs/image/components";
           {badge5 && <div class="badge badge-secondary-fix mr-2 mb-2">{badge5}</div>}
           {badge6 && <div class="badge badge-secondary-fix mr-2 mb-2">{badge6}</div>}
         </h1>
+        <p class="py-1 text-1xl font-bold">{titdesc}</p>
         <p class="py-1 text-1xl">{desc}</p>
         <div class="card-actions justify-end">
           {

@@ -17,7 +17,7 @@ const last_posts = posts.slice(0, 3);
     <div class="text-3xl py-3 font-bold">Full Stack Developer</div>
     <div class="py-2">
       <text class="text-lg">
-        This is my <b>Portfolio</b>
+        This is my <b>Portfolio</b> developed with Astro and Node.js version 16.2.
       </text>
     </div>
   </div>
@@ -27,38 +27,72 @@ const last_posts = posts.slice(0, 3);
   </div>
 
   <HorizontalCard
-    title="San Miguel"
-    img="/preview-sanmiguel.png"
-    desc="Development and maintenance of the website for San Miguel, one of the most important brewing companies in Europe."
+    title="Clece"
+    img="/clece-preview.png"
+    titdesc="Challenges of the website:"
+    desc="Website connected to CRM through SOAP API, custom PHP development for contact forms."
     url="https://www.sanmiguel.com"
     badge="PHP"
     badge2="React"
-    badge3="CSS"
+    badge3="SOAP API"
+    badge4="HTML/Twig/CSS"
     badge5="Wordpress multisite"
-    badge6="Twig"
+    badge6="Node.js"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
     title="Wakeuprights OXFAM"
     img="/preview-oxfam.png"
-    desc="Web creation by crafting the layout structure and elements using Tailwind and Twig, utilizing Gutenberg's own blocks for the actual layout design. This web also has a very complex form built with react."
+    titdesc="Challenges of the website:"
+    desc="Custom React-based form for requesting financial assistance provided by the European Union. This form consists of 6 steps with intermediate saves and is fully manageable by the Oxfam organization, allowing them to add additional documentation as needed and to approve or deny the aid."
     url="https://tejiendoderechos.oxfamintermon.org"
     badge="PHP"
     badge2="React"
     badge3="Tailwind CSS"
+    badge4="HTML/Twig"
     badge5="Wordpress"
-    badge6="Twig"
+    badge6="Node.js"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="El patio de Mahou"
-    img="/preview-elpatio.png"
-    desc="Webpage mainly build by react and conected via API with the CMS cockpit. This website has more than 100 events, which automatically update, these events have the possibility of purchasing tickets. (End of events 09/30/23)"
-    url="https://www.mahou.es/el-patio/"
-    badge="Vue.js"
-    badge2="Tailwind CSS"
-    badge5="Cockpit"
+    title="UNIVERSAE"
+    img="/preview-universae.png"
+    titdesc="Challenges of the website:"
+    desc="Fully custom payment gateway, designed to accommodate the company's multiple fiscal locations. Depending on where the course is conducted, the funds must be directed to the corresponding fiscal branch. This development was carried out using PHP and REST API."
+    url="https://universae.com"
+    badge="PHP"
+    badge2="REST API"
+    badge3="Vue.js"
+    badge4="CSS"
+    badge5="Wordpress multisite"
+    badge6="Node.js"
   />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+  title="Proyecto Hombre"
+  img="/preview-ph.png"
+  titdesc="Challenges of the website:"
+  desc="Donation form created with Vue.js, connected to the NUKUA CRM through SOAP API, fully customized according to the company's requirements."
+  url="https://proyectohombre.es"
+  badge="PHP"
+  badge2="Vue.js"
+  badge3="SOAP API"
+  badge4="SASS/HTML/Twig"
+  badge5="Wordpress"
+  badge6="Node.js"
+/>
+<div class="divider my-0"></div>
+<HorizontalCard
+title="San Miguel"
+img="/preview-sanmiguel.png"
+desc="Developed a system to claim prizes using codes found on beer cans, connected and automated with the database, and secured to prevent fraudulent claims. This development was created with React, secured using PHP, and connected to a MySQL database"
+url="https://www.sanmiguel.com"
+badge="PHP"
+badge2="React"
+badge3="SASS/HTML/Twig"
+badge5="Wordpress multisite"
+badge6="Node.js"
+/>
 
   <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">My abilities</div>
@@ -66,7 +100,7 @@ const last_posts = posts.slice(0, 3);
 
   <div class="flex flex-col mb-5">
     <div class="flex justify-between items-center mb-2">
-      <div class="text-xl font-bold">React / Vue.JS</div>
+      <div class="text-xl font-bold">React / Vue.JS / JavaScript</div>
       <div class="text-sm text-gray-600">90%</div>
     </div>
     <div class="w-full h-2 bg-gray-200 rounded">
@@ -96,18 +130,8 @@ const last_posts = posts.slice(0, 3);
 
   <div class="flex flex-col mb-5">
     <div class="flex justify-between items-center mb-2">
-      <div class="text-xl font-bold">Angular / Node.js</div>
-      <div class="text-sm text-gray-600">75%</div>
-    </div>
-    <div class="w-full h-2 bg-gray-200 rounded">
-      <div class="w-75-fix h-full bg-barra rounded"></div>
-    </div>
-  </div>
-
-  <div class="flex flex-col mb-5">
-    <div class="flex justify-between items-center mb-2">
-      <div class="text-xl font-bold">Use of GIT</div>
-      <div class="text-sm text-gray-600">80%</div>
+      <div class="text-xl font-bold">Node.js</div>
+      <div class="text-sm text-gray-600">85%</div>
     </div>
     <div class="w-full h-2 bg-gray-200 rounded">
       <div class="w-80-fix h-full bg-barra rounded"></div>
@@ -116,7 +140,17 @@ const last_posts = posts.slice(0, 3);
 
   <div class="flex flex-col mb-5">
     <div class="flex justify-between items-center mb-2">
-      <div class="text-xl font-bold">Wordpress / Contentful</div>
+      <div class="text-xl font-bold">AzureDevOps / GIT</div>
+      <div class="text-sm text-gray-600">90%</div>
+    </div>
+    <div class="w-full h-2 bg-gray-200 rounded">
+      <div class="w-90-fix h-full bg-barra rounded"></div>
+    </div>
+  </div>
+
+  <div class="flex flex-col mb-5">
+    <div class="flex justify-between items-center mb-2">
+      <div class="text-xl font-bold">CMS / Code Tools (VSCode)</div>
       <div class="text-sm text-gray-600">95%</div>
     </div>
     <div class="w-full h-2 bg-gray-200 rounded">
